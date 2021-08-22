@@ -20,6 +20,7 @@
 		93EAF49E26D11D0E00D2F709 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EAF49D26D11D0E00D2F709 /* LoginViewModel.swift */; };
 		93EC203126D21C4400AC59FF /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EC203026D21C4400AC59FF /* FormValidator.swift */; };
 		93EC203426D2307100AC59FF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EC203326D2307100AC59FF /* AuthService.swift */; };
+		93EC203826D25F6300AC59FF /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EC203726D25F6300AC59FF /* LoginTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		93EAF49D26D11D0E00D2F709 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		93EC203026D21C4400AC59FF /* FormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
 		93EC203326D2307100AC59FF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		93EC203726D25F6300AC59FF /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				93E365F126D0F9FA004DC5F7 /* WeatheryAppTests.swift */,
+				93EC203726D25F6300AC59FF /* LoginTests.swift */,
 				93E365F326D0F9FA004DC5F7 /* Info.plist */,
 			);
 			path = WeatheryAppTests;
@@ -337,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E365F226D0F9FA004DC5F7 /* WeatheryAppTests.swift in Sources */,
+				93EC203826D25F6300AC59FF /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
