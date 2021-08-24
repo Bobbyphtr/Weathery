@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: xcodebuild -scheme WeatheryApp -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.1' clean test | xcpretty
-    - name: Test
-      run: cd WeatheryAppTests; swift test --parallel; cd ..
+      run: xcodebuild -scheme WeatheryApp clean test | xcpretty
+#     - name: Test
+#       run: cd WeatheryAppTests; swift test --parallel; cd ..
